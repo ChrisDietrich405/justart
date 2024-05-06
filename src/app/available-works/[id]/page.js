@@ -50,7 +50,7 @@ export default async function AvailableWorksDetails({ params: { id } }) {
             1500s,
           </Typography>
           {/* <AddToCart id={data._id}/> */}
-          <Button sx={{backgroundColor: "black", color: "white", width: "150px"}}>Add to Cart</Button>
+          <Button className="new_button">Add to Cart</Button>
         </Grid>
       </Grid>
     </Container>

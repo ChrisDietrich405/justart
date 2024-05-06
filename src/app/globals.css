@@ -72,3 +72,16 @@ h1 {
   transition: 2s;
   transform: scale(1.1);
 }
+
+.new_button {
+  background-color: black !important;
+  color: white !important;
+  width: 150px !important;
+}
+
+.new_button:hover {
+  background-color: white !important;
+  color: black !important;
+  width: 150px !important;
+}
+
