@@ -56,10 +56,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## 1st Lambda Function
 
-import json
-import boto3
+    import json
+    import boto3
 
-def lambda_handler(event, context):
+    def lambda_handler(event, context):
     dynamodb = boto3.client('dynamodb')
 
     table_name = 'JustArtArtWork'
