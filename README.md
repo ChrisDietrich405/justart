@@ -104,9 +104,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## 2nd Lambda Function
 
-import boto3
+    import boto3
 
-def lambda_handler(event, context):
+    def lambda_handler(event, context):
     table_name = "JustArtArtWork"
     key = event['id']
 
